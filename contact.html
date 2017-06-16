@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-us">
 <head>
 	<title>NDLL Portfolio</title>
 	<meta charset="utf-8" />
@@ -7,26 +7,45 @@
 	<meta name="description" content="A portfolio site for Nan Loyd-Leffingwell" />
 	<meta name="classification" content="portfolio" />
 	<meta name="copyright" content="&copy; 2017 Nan Loyd-Leffingwell" />
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
-	<h1>Nan Loyd-Leffingwell</h1>
-	<nav>
-		<ul>
-			<li>About</li>
-			<li>Portfolio</li>
-			<li>Contact</li>
-		</ul>
-	</nav>
-	<article>
-
-	</article>
-	<aside>
-		<a href="contact.html">Connect with Me</a>
-		<hr>
-		<a href="https://github.com/NancyDLL"><img src="assets/images/1497487205_github_square_black.png" />
-		<a href="https://www.linkedin.com/in/nan-loyd-leffingwell-b9967917"><img src="assets/images/1497487173_linkedin_square_color.png" />
-		<a href="https://stackoverflow.com/users/8088558/nancydll"><img src="assets/images/1497487181_stackoverflow.png" />
-	</aside>
+	<header>
+		<h1>Nan Loyd-Leffingwell</h1>
+		<nav>
+			<ul>
+				<li><a href="portfolio.html">About</a></li>
+				<li><a href="portfolio.html">Portfolio</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	<div class="container">
+		<section id="form">
+			<h2>Contact</h2>
+			<form action="">
+			<fieldset>
+				<legend></legend>
+				<label for="name">Name</label>
+				<input type="text" id="name">
+				<br>
+				<label for="email">Email</label>
+				<input type="email" id="email">
+				<br>
+				<label for="message">Message</label>
+				<input type="text" id="message">
+			</fieldset>	
+			</form>
+		</section>
+		<section id="sidebar">
+			<h3><a href="contact.html">Connect with Me</a></h3>
+			<hr>
+			<a href="https://github.com/NancyDLL"><img src="assets/images/1497487205_github_square_black.png" alt="icon for github" /></a>
+			<a href="https://www.linkedin.com/in/nan-loyd-leffingwell-b9967917"><img src="assets/images/1497487173_linkedin_square_color.png" alt="icon for linkedin" /></a>
+			<a href="https://stackoverflow.com/users/8088558/nancydll"><img src="assets/images/1497487181_stackoverflow.png" alt="icon for stackoverflow"/></a>
+		</section>
+	</div>
 	<footer>&#169; 2017 Nan Loyd-Leffingwell</footer>
 </body>
 </html>
