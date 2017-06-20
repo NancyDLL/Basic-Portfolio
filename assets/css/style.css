@@ -34,57 +34,65 @@ h3 {
 p {
 	font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
 	font-size: 16px;
-	color: #666666;
+	color: #777777;
 }
 
 /*** 2.0 LINK STYLING ***/
+.navbar {
+	margin-left: 870px;
+	padding-top: 30px;
+}
+li {
+	color: #777777;
+	display: inline;
+	font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 16px;
+	padding-right: 18px;
+}
+
 /*** 2.1 UNVISITED ***/
 a:link {
-    color: #666666;
     text-decoration: none;
-    font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
-	font-size: 14px;
 }
 
 /*** 2.2 VISITED ***/
 a:visited {
-    color: #666666;
+    color: #777777;
     text-decoration: none;
     font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
-	font-size: 14px;
+	font-size: 16px;
 }
 
 /*** 2.3 MOUSE OVER ***/
 a:hover {
-    color: #666666;
+    color: #777777;
     text-decoration: none;
     font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
-	font-size: 14px;
+	font-size: 16px;
 	font-weight: bold;
 }
 
 /*** 2.4 SELECTED ***/
 a:active {
-    color: #666666;
+    color: #777777;
     text-decoration: none;
     font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
-	font-size: 14px;
+	font-size: 16px;
 	font-weight: bold;
 } 
-.navbar {
-	margin-left: 870px;
-}
+
 
 /*** 3.0 PAGE & TOP CONSTRUCTION ***/
 body {
 	background-image: url("../images/concrete_seamless.png");
-	width: 960px;
-}
-section {
-	background-color: #ffffff;
+	width: 1355px;
+	margin: 0 auto;
 }
 header {
+	width: 1355px;
+	height: 84px;
 	background-color: #ffffff;
+	border-bottom: 2px solid #dddddd;
 }
  #logo {
   	background-color: #4aaaa5;
@@ -97,11 +105,11 @@ header {
 
 /*** 4.0 MAIN SECTION ***/
 #main {
+	background-color: #ffffff;
 	width: 650px;
 	height: 480px;
 	margin-left: 136px;
 	margin-bottom: 40px;
-	padding-top: 38px;
 	border-style: solid;
 	border-width: 1px;
 	border-color: #dddddd;
@@ -120,6 +128,7 @@ hr.heavy {
 	float: left;	
 }
 .padme {
+	padding-top: 38px;
 	padding-left: 28px;
 	padding-right: 28px;
 }
@@ -131,6 +140,7 @@ hr.heavy {
 
 /*** 5.0 SIDEBAR ***/
 #sidebar {
+	background-color: #ffffff;
 	width: 270px;
 	height: 200px;
 	border-style: solid;
@@ -159,11 +169,11 @@ hr.light {
 
 /*** FOOTER ***/
 footer {
-		width: 1355px;
-		background-color: #666666;
 		font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
 		font-size: 12px;
-		color: #ffffff;
+		color: #dddddd;
+		width: 1355px;
+		background-color: #666666;
 		text-align: center;
 		padding-top: 36px;
 		padding-bottom: 38px;
