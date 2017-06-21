@@ -8,7 +8,8 @@
 	/*** 3.0 PAGE & TOP CONSTRUCTION ***/
 	/*** 4.0 MAIN SECTION ***/
 	/*** 5.0 SIDEBAR ***/
-	/*** FORM ***/
+	/*** 6.0 FORM ***/
+	/*** 7.0 PORTFOLIO ***/
 	/*** FOOTER ***/
 /*------------------------------------------*/
 
@@ -166,6 +167,31 @@ hr.light {
 	margin-left: 10px;
 }
 
+/*** 6.0 FORM ***/
+#form {
+	background-color: #ffffff;
+	width: 650px;
+	height: 480px;
+	margin-left: 136px;
+	margin-bottom: 40px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #dddddd;
+	float: left;
+}
+
+/*** 7.0 PORTFOLIO ***/
+#portfolio {
+	background-color: #ffffff;
+	width: 650px;
+	height: 480px;
+	margin-left: 136px;
+	margin-bottom: 40px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #dddddd;
+	float: left;
+}
 
 /*** FOOTER ***/
 footer {
