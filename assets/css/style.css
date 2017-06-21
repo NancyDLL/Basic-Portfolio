@@ -10,7 +10,7 @@
 	/*** 5.0 SIDEBAR ***/
 	/*** 6.0 FORM ***/
 	/*** 7.0 PORTFOLIO ***/
-	/*** FOOTER ***/
+	/*** 8.0 FOOTER ***/
 /*------------------------------------------*/
 
 /*** 1.0 TEXT & FONTS ***/
@@ -235,18 +235,72 @@ input[type=submit] {
 }
 
 /*** 7.0 PORTFOLIO ***/
+h4 {
+ 	background-color: #4aaaa5;
+ 	width: 264px;
+ 	height: 60px;
+ 	text-align: center;
+ 	font-family: "Georgia", Times, "Times New Roman", serif;
+ 	font-size: 20px;
+ 	color: #ffffff;
+ }
+
 #portfolio {
 	background-color: #ffffff;
 	width: 650px;
-	height: 480px;
+	height: 850px;
 	margin-left: 136px;
 	border-style: solid;
 	border-width: 1px;
 	border-color: #dddddd;
 	float: left;
 }
-
-/*** FOOTER ***/
+#hang {
+	background-image: url("../images/port_1.jpeg");
+	background-repeat: no-repeat;
+	background-size: 264px 196px;
+	width: 264px;
+	height: 196px;
+	margin-left: 28px;
+	margin-bottom: 55px;
+}
+#rpg {
+	background-image: url("../images/port_2.jpeg");
+	background-repeat: no-repeat;
+	background-size: 264px 196px;
+	width: 264px;
+	height: 196px;
+	margin-left: 28px;
+	margin-bottom: 55px;
+}
+#trivia {
+	background-image: url("../images/port_3.jpeg");
+	background-repeat: no-repeat;
+	background-size: 264px 196px;
+	width: 264px;
+	height: 196px;
+	margin-left: 28px;
+	margin-bottom: 55px;
+}
+#rutgers {
+	background-image: url("../images/port_4.jpeg");
+	background-repeat: no-repeat;
+	background-size: 264px 196px;
+	width: 264px;
+	height: 196px;
+	margin-left: 28px;
+	margin-bottom: 55px;
+}
+#rock {
+	background-image: url("../images/port_5.jpeg");
+	background-repeat: no-repeat;
+	background-size: 264px 196px;
+	width: 264px;
+	height: 196px;
+	margin-left: 28px;
+	margin-bottom: 55px;
+}
+/*** 8.0 FOOTER ***/
 footer {
 		font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
 		font-size: 12px;
